@@ -1,0 +1,16 @@
+{
+    "name":"conversor-memoria",
+    "version":"1.0.0",
+    "type":"commonjs",
+    "description": "CLI Tool for memory measurement conversion. Accepts input in Bytes, MB, GB & TB and returns same.",
+    "main":"main.js",
+    "bin":{
+        "memconvert":"./main.js"
+    },
+    "keywords": ["cli", "conversor", "GB", "TB", "MB", "bytes", "memory", "memoria"],
+    "author": "Dystopiaschild",
+    "license":"MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
